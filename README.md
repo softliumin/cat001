@@ -1,8 +1,8 @@
 ## first commit
-- session
-- mysql
-- redis
-- login
+- session done
+- mysql done
+- redis done
+- login 
 - add user
 - about money
 - 

@@ -27,7 +27,13 @@ configurations {
 	providedRuntime
 }
 
+
+
 dependencies {
+//	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.38'
+
+	compile('com.alibaba:fastjson:1.2.37')
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-aop')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.session:spring-session')
